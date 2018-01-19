@@ -1,4 +1,4 @@
-这是一个离线部署 k8s 的 ansible 脚本。
+               这是一个离线部署 一键k8s集群ansible。
 
 # 机器准备
 1. deploy 机器准备，需要一台机器执行 ansible 脚本，必须是 linux 64 bit 系统，否则无法运行 cfssl 
@@ -18,5 +18,13 @@
 cd src
 ansible-playbook -i inventory/inventory.cfg cluster.yml -v
 ```
+
+
+
+
+
+
+
+
 
 部署完成后，kubectl get node 查看是否部署成功。
