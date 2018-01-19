@@ -1,4 +1,4 @@
-               这是一个离线部署 一键k8s集群ansible。
+               这是一个离线部署 一键k8s集群ansible-playbook剧本
 
 # 机器准备
 1. deploy 机器准备，需要一台机器执行 ansible 脚本，必须是 linux 64 bit 系统，否则无法运行 cfssl 
@@ -28,3 +28,6 @@ ansible-playbook -i inventory/inventory.cfg cluster.yml -v
 
 
 部署完成后，kubectl get node 查看是否部署成功。
+
+
+2018年01月19日 星期五 13时39分44秒  -0.751440 秒
